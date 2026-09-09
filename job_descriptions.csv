@@ -1,0 +1,8 @@
+job_role,required_skills,required_qualification,experience,description
+Python Developer,"python, sql, django, flask, git, rest api",B.Tech/B.E in CS or related,0-2 years,"Develop and maintain backend applications using Python, work with SQL databases, and build REST APIs."
+Data Analyst,"python, sql, excel, tableau, power bi, statistics, data visualization",B.Tech/B.E or B.Sc in relevant field,0-2 years,"Analyze datasets, build dashboards, and generate business insights using SQL, Excel, and visualization tools."
+ML Engineer,"python, machine learning, deep learning, tensorflow, pytorch, scikit-learn, numpy, pandas",B.Tech/B.E in CS or related,1-3 years,"Design, train, and deploy machine learning models for production use cases."
+Web Developer,"javascript, html, css, react, node.js, git",B.Tech/B.E or Diploma in CS,0-2 years,"Build and maintain responsive web applications using modern front-end and back-end frameworks."
+Data Scientist,"python, r, machine learning, statistics, sql, pandas, numpy, data visualization",B.Tech/M.Tech in CS/Statistics,1-3 years,"Apply statistical and machine learning techniques to extract insights and build predictive models."
+DevOps Engineer,"docker, kubernetes, aws, azure, linux, git, ci/cd",B.Tech/B.E in CS or related,1-3 years,"Manage cloud infrastructure, automate deployments, and maintain CI/CD pipelines."
+NLP Engineer,"python, nlp, spacy, nltk, machine learning, deep learning",B.Tech/M.Tech in CS or related,1-3 years,"Build NLP pipelines for text classification, extraction, and language understanding tasks."

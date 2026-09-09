@@ -1,0 +1,107 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #0a0f1c;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 40px;
+    background: #0e1626;
+    border-radius: 12px;
+    box-shadow: 0 0 30px rgba(0, 150, 255, 0.15);
+}
+
+h1 {
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #3fa9f5;
+    margin-bottom: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input[type="file"] {
+    background: #131c2e;
+    border: 1px solid #3fa9f5;
+    padding: 10px;
+    border-radius: 6px;
+    color: #fff;
+}
+
+button {
+    background: #3fa9f5;
+    color: #0a0f1c;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #66c0ff;
+}
+
+.flashes {
+    color: #ff6b6b;
+}
+
+.best-match {
+    background: #12305a;
+    border: 1px solid #3fa9f5;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.best-match .role {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.best-match .score {
+    font-size: 2em;
+    color: #3fa9f5;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #1f2b40;
+}
+
+.skills li {
+    display: inline-block;
+    background: #12305a;
+    color: #3fa9f5;
+    padding: 5px 10px;
+    margin: 4px;
+    border-radius: 20px;
+    list-style: none;
+    font-size: 0.9em;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #3fa9f5;
+    text-decoration: none;
+}

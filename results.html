@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Screening Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Screening Complete</h1>
+        <p class="subtitle">Results for: {{ filename }}</p>
+
+        <div class="best-match">
+            <h2>Best Recommendation</h2>
+            <p class="role">{{ best_role }}</p>
+            <p class="score">{{ best_score }}% Match</p>
+        </div>
+
+        <h2>Extracted Skills</h2>
+        <ul class="skills">
+            {% for skill in skills %}
+                <li>{{ skill }}</li>
+            {% endfor %}
+        </ul>
+
+        <h2>All Job Matches</h2>
+        <table>
+            <tr><th>Role</th><th>Match Score</th></tr>
+            {% for r in results %}
+            <tr>
+                <td>{{ r.job_role }}</td>
+                <td>{{ r.match_score }}%</td>
+            </tr>
+            {% endfor %}
+        </table>
+
+        <a href="{{ url_for('index') }}" class="back-link">&larr; Analyze another resume</a>
+    </div>
+</body>
+</html>
